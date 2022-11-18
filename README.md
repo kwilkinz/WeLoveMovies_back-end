@@ -40,22 +40,22 @@ This application allows users to see list of movies and a list of movie theaters
 
 The home screen of the application shows a list of all movies that are currently playing in theaters. Users are able to click each movie to see details.
 
-![Home Screen](docs/images/homescreen.png)
+![Home Screen](backend/docs/images/homescreen.png)
 
 ### Movies Screen ( All Movies )
 
 Clicking "All Movies" in the navigation bar brings users to the all movies screen. This screen lists all movies regardless of whether they are currently showing. Clicking on a "See More" button will bring the user to the movie screen of that specific movie.
 
-![All Movies](docs/images/allmovies.png)
+![All Movies](backend/docs/images/allmovies.png)
 
 ### Individual Movie ( click see more )
 
 This will bring you to the individual movie the user clicks on. Listing the runtime, rating, average review, critic reviews and theater options.
 
-![movie](docs/images/movie.png)
+![movie](backend/docs/images/movie.png)
 
 ### All Theaters Screen
 
 Clicking on "All Theaters" in the navigation bar brings users to the all theaters screen. This screen lists all theaters along with a list of movies that are currently playing in that theater. Clicking on a movie will bring the user to the movie screen of that specific movie.
 
-![All Theaters](docs/images/alltheaters.png)
+![All Theaters](backend/docs/images/alltheaters.png)
