@@ -11,11 +11,11 @@ const addCritic = mapProperties({
 // ------------- ------------------- ------------- // 
 
 //* updates the given reviewId
-function update(reviewId) {
+function update(reviewId, updatedReview) {
   return knex("reviews")
     .select("*")
     .where({ review_id: reviewId })
-    .update("*");
+    .update(updatedReview, "*");
 }
 
 //* critics attached to each review posted.
@@ -25,7 +25,11 @@ function getUpdatedRecord(reviewId) {
     .select("*")
     .where({ review_id: reviewId })
     .first()
-    .then(addCritic)
+    .then((result) => {
+      const updatedRecord = addCritic(result);
+      updatedRecord.critic_id = updatedRecord.critic.critic_id;
+      return updatedRecord;
+    });
 }
 
 //* read all the reviews
