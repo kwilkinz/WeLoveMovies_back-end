@@ -35,6 +35,8 @@ This application allows users to see list of movies and a list of movie theaters
 - Supertest
 
 ## Features
+### Preview 
+https://user-images.githubusercontent.com/105250570/205707228-038d3a3a-072a-4e07-b283-13c1878b1c31.mov
 
 ### Home Screen ( Now Showing )
 
